@@ -1,4 +1,24 @@
- for ( int i = 0; i <= gettingInput; i++){
+#include <iostream>
+
+
+using namespace std;
+
+
+int main(){
+
+    // Declaring variable
+
+    int gettingInput;
+
+    // Showing message to provide input
+
+    cout << "Enter Number" << endl;
+
+    // Getting input
+
+    cin >> gettingInput;
+
+    for ( int i = 0; i <= gettingInput; i++){
 
         for ( int j = gettingInput; j >= i; j--){
 
@@ -41,3 +61,8 @@
     }
 
 
+
+
+
+    return 0;
+}
